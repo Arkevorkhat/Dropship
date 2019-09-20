@@ -7,8 +7,9 @@ namespace Dropship.Models
 {
     public class Listing
     {
-        public string Title { get; }
+        public string Title { get; set; }
         public string Description { get; set; }
         public int ID { get; set; }
+        public decimal BasePrice { get; set; } 
     }
 }

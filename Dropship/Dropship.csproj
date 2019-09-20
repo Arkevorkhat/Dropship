@@ -18,6 +18,8 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.0.0-rc1.19456.14" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.0-rc1.19456.14" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.0.0-rc1.19456.14" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.0.0-rc1.19456.10" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.0.0-rc1-19462-10" />
   </ItemGroup>
 
   <ItemGroup>
@@ -28,9 +30,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Assets\" />
-    <None Remove ="Assets\xato-net-10-million-passwords-100000.txt"/>
-    <EmbeddedResource Include="Assets\xato-net-10-million-passwords-100000.txt"/>
+    <None Remove="Assets\xato-net-10-million-passwords-100000.txt" />
+    <EmbeddedResource Include="Assets\xato-net-10-million-passwords-100000.txt" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">

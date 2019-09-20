@@ -10,6 +10,6 @@ namespace Dropship.Models
         public int Count { get; set; }
         public string SetCode { get; set; } //Random sets will have code RND, other sets 
         //will use the native set code for the game.
-
+        
     }
 }

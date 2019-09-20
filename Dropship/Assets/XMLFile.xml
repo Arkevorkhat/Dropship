@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <listing ID="1">
+    <Title>TestListing</Title>
+    <Description>This is a test listing</Description>
+    <BasePrice>3.50</BasePrice>
+  </listing>
+</data>
